@@ -1,0 +1,77 @@
+{ 
+  "year": "2022",
+  "financialreport": [
+    {
+      "company": "Testing",
+      "companyname": "Test Corp",
+      "companystock": "TST",
+      "financials":
+      [
+        {
+        "date": "January",
+        "revenue": 100
+       },
+       {
+        "date": "February",
+        "revenue": 110
+       },
+       {
+        "date": "March",
+        "revenue": 160
+       },
+       {
+        "date": "April",
+        "revenue": 180
+       },
+       {
+        "date": "May",
+        "revenue": 170
+       },
+       {
+        "date": "June",
+        "revenue": 150
+       },
+       {
+        "date": "July",
+        "revenue": 190
+       }
+      ]
+    },
+	{
+      "company": "TMS software",
+      "companyname": "TMS",
+      "companystock": "TMS",
+      "financials":
+      [
+        {
+        "date": "January",
+        "revenue": 220
+       },
+       {
+        "date": "February",
+        "revenue": 170
+       },
+       {
+        "date": "March",
+        "revenue": 210
+       },
+       {
+        "date": "April",
+        "revenue": 205
+       },
+       {
+        "date": "May",
+        "revenue": 210
+       },
+       {
+        "date": "June",
+        "revenue": 215
+       },
+       {
+        "date": "July",
+        "revenue": 195
+       }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+object Form1: TForm1
+  Left = 517
+  Height = 664
+  Top = 161
+  Width = 1070
+  Caption = 'TMS FNC Chart Demo'
+  ClientHeight = 664
+  ClientWidth = 1070
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.6.0.4'
+  object TMSFNCChart1: TTMSFNCChart
+    Left = 199
+    Height = 664
+    Top = 0
+    Width = 871
+    ClickMargin = 10
+    Legend.Fill.Color = 16775416
+    Legend.Stroke.Color = clGray
+    Legend.Stroke.Width = 1
+    Legend.Left = 10
+    Legend.Top = 10
+    Stroke.Color = clGray
+    Stroke.Width = 1
+    SeriesMargins.Left = 0
+    SeriesMargins.Top = 0
+    SeriesMargins.Right = 0
+    SeriesMargins.Bottom = 0
+    Series = <    
+      item
+        AnimationFactor = 4
+        AutoYRange = arDisabled
+        Bar.Width = 65
+        Bar.Spacing = 20
+        MultiPoint.Width = 65
+        Pie.Size = 200
+        Pie.InnerSize = 0
+        Pie.Margins.Left = 10
+        Pie.Margins.Top = 10
+        Pie.Margins.Right = 10
+        Pie.Margins.Bottom = 10
+        Pie.StartAngle = 0
+        Pie.SweepAngle = 360
+        Fill.Color = 3329434
+        LegendText = 'Serie 1'
+        Labels.Fill.Color = 16775416
+        Labels.Format = '%.2f'
+        Labels.OffsetX = 0
+        Labels.OffsetY = -10
+        Labels.Stroke.Color = clGray
+        Labels.Stroke.Width = 1
+        Markers.Fill.Color = 3329434
+        Markers.Height = 10
+        Markers.Stroke.Color = 25600
+        Markers.Stroke.Width = 1
+        Markers.Visible = True
+        Markers.Width = 10
+        MaxX = 10
+        MaxY = 150
+        MaxXOffsetPercentage = 0
+        MaxYOffsetPercentage = 0
+        MinX = 0
+        MinY = 0
+        MinXOffsetPercentage = 0
+        MinYOffsetPercentage = 0
+        Offset3DX = 15
+        Offset3DY = 15
+        Points = <        
+          item
+            Annotations = <>
+            XValue = 0
+            YValue = 8
+            YValueSecond = 38
+            YValueVariable = 33
+            YValueLow = -3
+            YValueClose = 16
+            YValueHigh = 8
+            YValueOpen = 11
+            YValueMedian = 6
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 1
+            YValue = 113
+            YValueSecond = -16
+            YValueVariable = 26
+            YValueLow = 31
+            YValueClose = 42
+            YValueHigh = 113
+            YValueOpen = 55
+            YValueMedian = 51
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 2
+            YValue = 36
+            YValueSecond = 37
+            YValueVariable = 44
+            YValueLow = -16
+            YValueClose = 5
+            YValueHigh = 36
+            YValueOpen = 12
+            YValueMedian = 9
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 3
+            YValue = 90
+            YValueSecond = 54
+            YValueVariable = 19
+            YValueLow = 0
+            YValueClose = 30
+            YValueHigh = 90
+            YValueOpen = 27
+            YValueMedian = 27
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 4
+            YValue = 42
+            YValueSecond = 18
+            YValueVariable = 61
+            YValueLow = 35
+            YValueClose = 47
+            YValueHigh = 42
+            YValueOpen = 64
+            YValueMedian = 63
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 5
+            YValue = 99
+            YValueSecond = -5
+            YValueVariable = 82
+            YValueLow = 12
+            YValueClose = 28
+            YValueHigh = 99
+            YValueOpen = 27
+            YValueMedian = 25
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 6
+            YValue = 50
+            YValueSecond = 51
+            YValueVariable = 33
+            YValueLow = 29
+            YValueClose = 50
+            YValueHigh = 50
+            YValueOpen = 50
+            YValueMedian = 46
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 7
+            YValue = 38
+            YValueSecond = 44
+            YValueVariable = 51
+            YValueLow = 57
+            YValueClose = 76
+            YValueHigh = 38
+            YValueOpen = 85
+            YValueMedian = 85
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 8
+            YValue = 124
+            YValueSecond = 20
+            YValueVariable = 22
+            YValueLow = 61
+            YValueClose = 79
+            YValueHigh = 124
+            YValueOpen = 71
+            YValueMedian = 71
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 9
+            YValue = 23
+            YValueSecond = 57
+            YValueVariable = 24
+            YValueLow = 17
+            YValueClose = 29
+            YValueHigh = 23
+            YValueOpen = 35
+            YValueMedian = 38
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 10
+            YValue = 36
+            YValueSecond = 36
+            YValueVariable = 66
+            YValueLow = 4
+            YValueClose = 18
+            YValueHigh = 36
+            YValueOpen = 29
+            YValueMedian = 32
+            Explode = 0
+          end>
+        Legend.Fill.Color = 16775416
+        Legend.Left = -10
+        Legend.Top = 0
+        Legend.Stroke.Color = clGray
+        Legend.Stroke.Width = 1
+        Stroke.Color = 25600
+        Stroke.Width = 1
+        XGrid.MajorUnitStroke.Width = 1
+        XGrid.MinorUnitStroke.Width = 1
+        XGrid.Visible = True
+        XValues.MajorUnit = 1
+        XValues.MajorUnitFormat = '%.0f'
+        XValues.MajorUnitSpacing = 5
+        XValues.MajorUnitTickMarkSize = 10
+        XValues.MajorUnitTickMarkColor = clSilver
+        XValues.MinorUnit = 0
+        XValues.MinorUnitFormat = '%.0f'
+        XValues.MinorUnitSpacing = 5
+        XValues.MinorUnitTickMarkSize = 7
+        XValues.MinorUnitTickMarkColor = clSilver
+        XValues.Title.TextMargins.Left = 0
+        XValues.Title.TextMargins.Top = 0
+        XValues.Title.TextMargins.Right = 0
+        XValues.Title.TextMargins.Bottom = 0
+        XValues.Title.Text = 'X-Axis Serie 1'
+        XValues.Angle = 0
+        YGrid.MajorUnitStroke.Width = 1
+        YGrid.MinorUnitStroke.Width = 1
+        YGrid.Visible = True
+        YValues.MajorUnit = 1
+        YValues.MajorUnitFormat = '%.2f'
+        YValues.MajorUnitSpacing = 5
+        YValues.MajorUnitTickMarkSize = 10
+        YValues.MajorUnitTickMarkColor = clSilver
+        YValues.MinorUnit = 0
+        YValues.MinorUnitFormat = '%.2f'
+        YValues.MinorUnitSpacing = 5
+        YValues.MinorUnitTickMarkSize = 7
+        YValues.MinorUnitTickMarkColor = clSilver
+        YValues.Title.TextMargins.Left = 0
+        YValues.Title.TextMargins.Top = 0
+        YValues.Title.TextMargins.Right = 0
+        YValues.Title.TextMargins.Bottom = 0
+        YValues.Title.Text = 'Y-Axis Serie 1'
+        ZeroReferenceValue = 0
+      end    
+      item
+        AnimationFactor = 4
+        AutoYRange = arDisabled
+        Bar.Width = 65
+        Bar.Spacing = 20
+        MultiPoint.Width = 65
+        Pie.Size = 200
+        Pie.InnerSize = 0
+        Pie.Margins.Left = 10
+        Pie.Margins.Top = 10
+        Pie.Margins.Right = 10
+        Pie.Margins.Bottom = 10
+        Pie.StartAngle = 0
+        Pie.SweepAngle = 360
+        Fill.Color = 3329434
+        LegendText = 'Serie 2'
+        Labels.Fill.Color = 16775416
+        Labels.Format = '%.2f'
+        Labels.OffsetX = 0
+        Labels.OffsetY = -10
+        Labels.Stroke.Color = clGray
+        Labels.Stroke.Width = 1
+        Markers.Fill.Color = 3329434
+        Markers.Height = 10
+        Markers.Stroke.Color = 25600
+        Markers.Stroke.Width = 1
+        Markers.Visible = True
+        Markers.Width = 10
+        MaxX = 10
+        MaxY = 150
+        MaxXOffsetPercentage = 0
+        MaxYOffsetPercentage = 0
+        MinX = 0
+        MinY = 0
+        MinXOffsetPercentage = 0
+        MinYOffsetPercentage = 0
+        Offset3DX = 15
+        Offset3DY = 15
+        Points = <        
+          item
+            Annotations = <>
+            XValue = 0
+            YValue = 93
+            YValueSecond = 22
+            YValueVariable = 55
+            YValueLow = 78
+            YValueClose = 103
+            YValueHigh = 93
+            YValueOpen = 104
+            YValueMedian = 103
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 1
+            YValue = 78
+            YValueSecond = 71
+            YValueVariable = 85
+            YValueLow = 44
+            YValueClose = 56
+            YValueHigh = 78
+            YValueOpen = 72
+            YValueMedian = 74
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 2
+            YValue = 126
+            YValueSecond = 35
+            YValueVariable = 17
+            YValueLow = -17
+            YValueClose = 8
+            YValueHigh = 126
+            YValueOpen = 2
+            YValueMedian = -3
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 3
+            YValue = 12
+            YValueSecond = 29
+            YValueVariable = 10
+            YValueLow = 15
+            YValueClose = 42
+            YValueHigh = 12
+            YValueOpen = 29
+            YValueMedian = 27
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 4
+            YValue = 25
+            YValueSecond = -4
+            YValueVariable = 51
+            YValueLow = 5
+            YValueClose = 21
+            YValueHigh = 25
+            YValueOpen = 28
+            YValueMedian = 28
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 5
+            YValue = 35
+            YValueSecond = -7
+            YValueVariable = 71
+            YValueLow = -11
+            YValueClose = 15
+            YValueHigh = 35
+            YValueOpen = 17
+            YValueMedian = 15
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 6
+            YValue = 128
+            YValueSecond = 35
+            YValueVariable = 28
+            YValueLow = -10
+            YValueClose = 14
+            YValueHigh = 128
+            YValueOpen = 5
+            YValueMedian = 3
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 7
+            YValue = 41
+            YValueSecond = 37
+            YValueVariable = 20
+            YValueLow = -10
+            YValueClose = 11
+            YValueHigh = 41
+            YValueOpen = 18
+            YValueMedian = 21
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 8
+            YValue = 117
+            YValueSecond = -11
+            YValueVariable = 90
+            YValueLow = 38
+            YValueClose = 50
+            YValueHigh = 117
+            YValueOpen = 59
+            YValueMedian = 58
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 9
+            YValue = 87
+            YValueSecond = 49
+            YValueVariable = 39
+            YValueLow = 8
+            YValueClose = 35
+            YValueHigh = 87
+            YValueOpen = 32
+            YValueMedian = 35
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 10
+            YValue = 101
+            YValueSecond = -1
+            YValueVariable = 51
+            YValueLow = 56
+            YValueClose = 86
+            YValueHigh = 101
+            YValueOpen = 84
+            YValueMedian = 88
+            Explode = 0
+          end>
+        Legend.Fill.Color = 16775416
+        Legend.Left = -10
+        Legend.Top = 0
+        Legend.Stroke.Color = clGray
+        Legend.Stroke.Width = 1
+        Stroke.Color = 25600
+        Stroke.Width = 1
+        XGrid.MajorUnitStroke.Width = 1
+        XGrid.MinorUnitStroke.Width = 1
+        XValues.MajorUnit = 1
+        XValues.MajorUnitFormat = '%.0f'
+        XValues.MajorUnitSpacing = 5
+        XValues.MajorUnitTickMarkSize = 10
+        XValues.MajorUnitTickMarkColor = clSilver
+        XValues.MinorUnit = 0
+        XValues.MinorUnitFormat = '%.0f'
+        XValues.MinorUnitSpacing = 5
+        XValues.MinorUnitTickMarkSize = 7
+        XValues.MinorUnitTickMarkColor = clSilver
+        XValues.Title.TextMargins.Left = 0
+        XValues.Title.TextMargins.Top = 0
+        XValues.Title.TextMargins.Right = 0
+        XValues.Title.TextMargins.Bottom = 0
+        XValues.Title.Text = 'X-Axis Serie 2'
+        XValues.Angle = 0
+        XValues.Positions = []
+        YGrid.MajorUnitStroke.Width = 1
+        YGrid.MinorUnitStroke.Width = 1
+        YValues.MajorUnit = 1
+        YValues.MajorUnitFormat = '%.2f'
+        YValues.MajorUnitSpacing = 5
+        YValues.MajorUnitTickMarkSize = 10
+        YValues.MajorUnitTickMarkColor = clSilver
+        YValues.MinorUnit = 0
+        YValues.MinorUnitFormat = '%.2f'
+        YValues.MinorUnitSpacing = 5
+        YValues.MinorUnitTickMarkSize = 7
+        YValues.MinorUnitTickMarkColor = clSilver
+        YValues.Title.TextMargins.Left = 0
+        YValues.Title.TextMargins.Top = 0
+        YValues.Title.TextMargins.Right = 0
+        YValues.Title.TextMargins.Bottom = 0
+        YValues.Title.Text = 'Y-Axis Serie 2'
+        YValues.Positions = []
+        ZeroReferenceValue = 0
+      end    
+      item
+        AnimationFactor = 4
+        AutoYRange = arDisabled
+        Bar.Width = 65
+        Bar.Spacing = 20
+        MultiPoint.Width = 65
+        Pie.Size = 200
+        Pie.InnerSize = 0
+        Pie.Margins.Left = 10
+        Pie.Margins.Top = 10
+        Pie.Margins.Right = 10
+        Pie.Margins.Bottom = 10
+        Pie.StartAngle = 0
+        Pie.SweepAngle = 360
+        Fill.Color = 3329434
+        LegendText = 'Serie 3'
+        Labels.Fill.Color = 16775416
+        Labels.Format = '%.2f'
+        Labels.OffsetX = 0
+        Labels.OffsetY = -10
+        Labels.Stroke.Color = clGray
+        Labels.Stroke.Width = 1
+        Markers.Fill.Color = 3329434
+        Markers.Height = 10
+        Markers.Stroke.Color = 25600
+        Markers.Stroke.Width = 1
+        Markers.Visible = True
+        Markers.Width = 10
+        MaxX = 10
+        MaxY = 150
+        MaxXOffsetPercentage = 0
+        MaxYOffsetPercentage = 0
+        MinX = 0
+        MinY = 0
+        MinXOffsetPercentage = 0
+        MinYOffsetPercentage = 0
+        Offset3DX = 15
+        Offset3DY = 15
+        Points = <        
+          item
+            Annotations = <>
+            XValue = 0
+            YValue = 86
+            YValueSecond = 74
+            YValueVariable = 3
+            YValueLow = 20
+            YValueClose = 37
+            YValueHigh = 86
+            YValueOpen = 40
+            YValueMedian = 42
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 1
+            YValue = 129
+            YValueSecond = 11
+            YValueVariable = 60
+            YValueLow = 72
+            YValueClose = 97
+            YValueHigh = 129
+            YValueOpen = 91
+            YValueMedian = 91
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 2
+            YValue = 25
+            YValueSecond = 32
+            YValueVariable = 9
+            YValueLow = 15
+            YValueClose = 30
+            YValueHigh = 25
+            YValueOpen = 41
+            YValueMedian = 44
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 3
+            YValue = 50
+            YValueSecond = 13
+            YValueVariable = 67
+            YValueLow = 54
+            YValueClose = 79
+            YValueHigh = 50
+            YValueOpen = 69
+            YValueMedian = 66
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 4
+            YValue = 79
+            YValueSecond = -14
+            YValueVariable = 65
+            YValueLow = 33
+            YValueClose = 52
+            YValueHigh = 79
+            YValueOpen = 45
+            YValueMedian = 49
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 5
+            YValue = 81
+            YValueSecond = 42
+            YValueVariable = 67
+            YValueLow = -14
+            YValueClose = -3
+            YValueHigh = 81
+            YValueOpen = 3
+            YValueMedian = 1
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 6
+            YValue = 54
+            YValueSecond = 4
+            YValueVariable = 73
+            YValueLow = 34
+            YValueClose = 55
+            YValueHigh = 54
+            YValueOpen = 45
+            YValueMedian = 47
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 7
+            YValue = 21
+            YValueSecond = -17
+            YValueVariable = 82
+            YValueLow = -20
+            YValueClose = 0
+            YValueHigh = 21
+            YValueOpen = -3
+            YValueMedian = -6
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 8
+            YValue = 51
+            YValueSecond = -17
+            YValueVariable = 42
+            YValueLow = 65
+            YValueClose = 93
+            YValueHigh = 51
+            YValueOpen = 93
+            YValueMedian = 96
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 9
+            YValue = 16
+            YValueSecond = 78
+            YValueVariable = 2
+            YValueLow = 52
+            YValueClose = 73
+            YValueHigh = 16
+            YValueOpen = 67
+            YValueMedian = 70
+            Explode = 0
+          end        
+          item
+            Annotations = <>
+            XValue = 10
+            YValue = 24
+            YValueSecond = 68
+            YValueVariable = 96
+            YValueLow = 67
+            YValueClose = 87
+            YValueHigh = 24
+            YValueOpen = 77
+            YValueMedian = 75
+            Explode = 0
+          end>
+        Legend.Fill.Color = 16775416
+        Legend.Left = -10
+        Legend.Top = 0
+        Legend.Stroke.Color = clGray
+        Legend.Stroke.Width = 1
+        Stroke.Color = 25600
+        Stroke.Width = 1
+        XGrid.MajorUnitStroke.Width = 1
+        XGrid.MinorUnitStroke.Width = 1
+        XValues.MajorUnit = 1
+        XValues.MajorUnitFormat = '%.0f'
+        XValues.MajorUnitSpacing = 5
+        XValues.MajorUnitTickMarkSize = 10
+        XValues.MajorUnitTickMarkColor = clSilver
+        XValues.MinorUnit = 0
+        XValues.MinorUnitFormat = '%.0f'
+        XValues.MinorUnitSpacing = 5
+        XValues.MinorUnitTickMarkSize = 7
+        XValues.MinorUnitTickMarkColor = clSilver
+        XValues.Title.TextMargins.Left = 0
+        XValues.Title.TextMargins.Top = 0
+        XValues.Title.TextMargins.Right = 0
+        XValues.Title.TextMargins.Bottom = 0
+        XValues.Title.Text = 'X-Axis Serie 3'
+        XValues.Angle = 0
+        XValues.Positions = []
+        YGrid.MajorUnitStroke.Width = 1
+        YGrid.MinorUnitStroke.Width = 1
+        YValues.MajorUnit = 1
+        YValues.MajorUnitFormat = '%.2f'
+        YValues.MajorUnitSpacing = 5
+        YValues.MajorUnitTickMarkSize = 10
+        YValues.MajorUnitTickMarkColor = clSilver
+        YValues.MinorUnit = 0
+        YValues.MinorUnitFormat = '%.2f'
+        YValues.MinorUnitSpacing = 5
+        YValues.MinorUnitTickMarkSize = 7
+        YValues.MinorUnitTickMarkColor = clSilver
+        YValues.Title.TextMargins.Left = 0
+        YValues.Title.TextMargins.Top = 0
+        YValues.Title.TextMargins.Right = 0
+        YValues.Title.TextMargins.Bottom = 0
+        YValues.Title.Text = 'Y-Axis Serie 3'
+        YValues.Positions = []
+        ZeroReferenceValue = 0
+      end>
+    Title.Fill.Kind = gfkNone
+    Title.Fill.Color = 16775416
+    Title.Stroke.Color = clGray
+    Title.Stroke.Width = 1
+    Title.Height = 35
+    Title.TextMargins.Left = 3
+    Title.TextMargins.Top = 3
+    Title.TextMargins.Right = 3
+    Title.TextMargins.Bottom = 3
+    Title.Text = 'TMS FMX Chart'
+    XAxis.Fill.Kind = gfkNone
+    XAxis.Fill.Color = 16775416
+    XAxis.Stroke.Color = clGray
+    XAxis.Stroke.Width = 1
+    XAxis.Height = 35
+    YAxis.Fill.Kind = gfkNone
+    YAxis.Fill.Color = 16775416
+    YAxis.Stroke.Color = clGray
+    YAxis.Stroke.Width = 1
+    YAxis.Width = 35
+    OnGetSerieLegendText = TMSFNCChart1GetSerieLegendText
+    OnBeforeDrawSerieMarker = TMSFNCChart1BeforeDrawSerieMarker
+    OnBeforeDrawSerieXValue = TMSFNCChart1BeforeDrawSerieXValue
+    OnGetSerieYValue = TMSFNCChart1GetSerieYValue
+    OnSeriePointClick = TMSFNCChart1SeriePointClick
+    Align = alClient
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 664
+    Top = 0
+    Width = 199
+    Align = alLeft
+    ClientHeight = 664
+    ClientWidth = 199
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 6
+      Height = 30
+      Top = 277
+      Width = 187
+      Align = alTop
+      BorderSpacing.Around = 5
+      Caption = 'Click on the points/bars of a serie to show the value'
+      ParentColor = False
+      WordWrap = True
+    end
+    object RadioGroup1: TRadioGroup
+      Left = 6
+      Height = 212
+      Top = 36
+      Width = 187
+      Align = alTop
+      AutoFill = True
+      BorderSpacing.Around = 5
+      Caption = 'Samples'
+      ChildSizing.LeftRightSpacing = 6
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsScaleChilds
+      ChildSizing.ShrinkVertical = crsScaleChilds
+      ChildSizing.Layout = cclLeftToRightThenTopToBottom
+      ChildSizing.ControlsPerLine = 1
+      ClientHeight = 192
+      ClientWidth = 183
+      ItemIndex = 0
+      Items.Strings = (
+        'Monthly Car Sales'
+        'Sine && Cosine'
+        'Daily Temperature'
+        'Customer Satisfaction'
+        'Budget Spending'
+        'Financial Data'
+      )
+      OnClick = RadioGroup1Click
+      TabOrder = 0
+    end
+    object Button1: TButton
+      Left = 6
+      Height = 25
+      Top = 6
+      Width = 187
+      Align = alTop
+      BorderSpacing.Around = 5
+      Caption = 'Edit Chart Options...'
+      TabOrder = 1
+    end
+    object CheckBox1: TCheckBox
+      Left = 6
+      Height = 19
+      Top = 253
+      Width = 187
+      Align = alTop
+      BorderSpacing.Around = 5
+      Caption = 'Interaction'
+      OnChange = CheckBox1Change
+      TabOrder = 2
+    end
+  end
+  object TMSFNCChartEditorDialog1: TTMSFNCChartEditorDialog
+    Left = 290
+    Height = 30
+    Top = 210
+    Width = 30
+    Chart = TMSFNCChart1
+  end
+end

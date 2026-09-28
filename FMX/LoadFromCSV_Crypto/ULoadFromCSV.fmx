@@ -1,0 +1,489 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Load From CSV Demo'
+  ClientHeight = 656
+  ClientWidth = 836
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Position.X = 20.000000000000000000
+    Position.Y = 20.000000000000000000
+    Size.Width = 796.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object AppBtn: TButton
+      Align = Left
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 145.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Set Appearance'
+      OnClick = AppBtnClick
+    end
+    object AvgBtn: TButton
+      Align = Left
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 270.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Add Average'
+      OnClick = AvgBtnClick
+    end
+    object LoadBtn: TButton
+      Align = Left
+      Margins.Left = 20.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Bottom = 10.000000000000000000
+      Position.X = 20.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 105.000000000000000000
+      Size.Height = 45.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'Load Data'
+      OnClick = LoadBtnClick
+    end
+  end
+  object Panel2: TPanel
+    Align = Client
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Margins.Bottom = 20.000000000000000000
+    Size.Width = 796.000000000000000000
+    Size.Height = 531.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object TMSFNCCandleStickChart1: TTMSFNCCandleStickChart
+      Appearance.ColorList = <
+        item
+          Color = xFF57C0F5
+        end
+        item
+          Color = xFFF71F56
+        end
+        item
+          Color = xFF031B79
+        end
+        item
+          Color = xFF954EBB
+        end
+        item
+          Color = xFFEEC713
+        end
+        item
+          Color = xFFF36042
+        end
+        item
+          Color = xFF2773FC
+        end
+        item
+          Color = xFFA1CF58
+        end
+        item
+          Color = xFF00A9A6
+        end
+        item
+          Color = xFF85E4F9
+        end>
+      Appearance.GlobalFont.Color = claNull
+      Appearance.GlobalFont.Scale = 1.000000000000000000
+      Appearance.GlobalFont.Style = []
+      Appearance.ColorScheme = ccsColorList
+      Appearance.MonochromeColor = claSteelblue
+      ClickMargin = 10.000000000000000000
+      Legend.Fill.Color = claGhostwhite
+      Legend.Stroke.Color = claGray
+      Legend.Font.Name = 'Segoe UI'
+      Legend.Left = 10.000000000000000000
+      Legend.Top = 10.000000000000000000
+      Stroke.Color = claGray
+      SeriesMargins.Left = 0
+      SeriesMargins.Top = 0
+      SeriesMargins.Right = 0
+      SeriesMargins.Bottom = 0
+      Series = <
+        item
+          AnimationFactor = 4.000000000000000000
+          AutoYRange = arCommonZeroBased
+          Bar.Width = 65.000000000000000000
+          Bar.Spacing = 20.000000000000000000
+          MultiPoint.Width = 65.000000000000000000
+          Pie.Size = 200.000000000000000000
+          Pie.Margins.Left = 10
+          Pie.Margins.Top = 10
+          Pie.Margins.Right = 10
+          Pie.Margins.Bottom = 10
+          Pie.SweepAngle = 360.000000000000000000
+          Fill.Color = xFF57C0F5
+          LegendText = 'Series 0'
+          Labels.Fill.Color = claGhostwhite
+          Labels.Font.Name = 'Segoe UI'
+          Labels.Format = '%.2f'
+          Labels.OffsetY = -10.000000000000000000
+          Labels.Stroke.Color = claGray
+          Markers.Fill.Color = xFF57C0F5
+          Markers.Height = 10.000000000000000000
+          Markers.Stroke.Color = xFF2C607A
+          Markers.Width = 10.000000000000000000
+          MaxX = 20.000000000000000000
+          MaxY = 10.000000000000000000
+          MaxYOffsetPercentage = 10.000000000000000000
+          Mode = smStatistical
+          Offset3DX = 15.000000000000000000
+          Offset3DY = 15.000000000000000000
+          Points = <
+            item
+              Annotations = <>
+              YValue = 119.000000000000000000
+              YValueSecond = 105.000000000000000000
+              YValueVariable = 119.000000000000000000
+              YValueLow = 41.000000000000000000
+              YValueClose = 67.000000000000000000
+              YValueHigh = 119.000000000000000000
+              YValueOpen = 103.000000000000000000
+              YValueMedian = 118.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 1.000000000000000000
+              YValue = 127.000000000000000000
+              YValueSecond = 109.000000000000000000
+              YValueVariable = 127.000000000000000000
+              YValueLow = 47.000000000000000000
+              YValueClose = 64.000000000000000000
+              YValueHigh = 127.000000000000000000
+              YValueOpen = 75.000000000000000000
+              YValueMedian = 130.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 2.000000000000000000
+              YValue = 103.000000000000000000
+              YValueSecond = 92.000000000000000000
+              YValueVariable = 103.000000000000000000
+              YValueLow = 54.000000000000000000
+              YValueClose = 56.000000000000000000
+              YValueHigh = 103.000000000000000000
+              YValueOpen = 65.000000000000000000
+              YValueMedian = 101.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 3.000000000000000000
+              YValue = 115.000000000000000000
+              YValueSecond = 98.000000000000000000
+              YValueVariable = 115.000000000000000000
+              YValueLow = 60.000000000000000000
+              YValueClose = 77.000000000000000000
+              YValueHigh = 115.000000000000000000
+              YValueOpen = 78.000000000000000000
+              YValueMedian = 112.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 4.000000000000000000
+              YValue = 86.000000000000000000
+              YValueSecond = 74.000000000000000000
+              YValueVariable = 86.000000000000000000
+              YValueLow = 33.000000000000000000
+              YValueClose = 58.000000000000000000
+              YValueHigh = 86.000000000000000000
+              YValueOpen = 36.000000000000000000
+              YValueMedian = 87.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 5.000000000000000000
+              YValue = 51.000000000000000000
+              YValueSecond = 39.000000000000000000
+              YValueVariable = 51.000000000000000000
+              YValueLow = 25.000000000000000000
+              YValueClose = 46.000000000000000000
+              YValueHigh = 51.000000000000000000
+              YValueOpen = 47.000000000000000000
+              YValueMedian = 50.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 6.000000000000000000
+              YValue = 63.000000000000000000
+              YValueSecond = 48.000000000000000000
+              YValueVariable = 63.000000000000000000
+              YValueLow = 31.000000000000000000
+              YValueClose = 54.000000000000000000
+              YValueHigh = 63.000000000000000000
+              YValueOpen = 36.000000000000000000
+              YValueMedian = 64.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 7.000000000000000000
+              YValue = 120.000000000000000000
+              YValueSecond = 110.000000000000000000
+              YValueVariable = 120.000000000000000000
+              YValueLow = 54.000000000000000000
+              YValueClose = 101.000000000000000000
+              YValueHigh = 120.000000000000000000
+              YValueOpen = 72.000000000000000000
+              YValueMedian = 121.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 8.000000000000000000
+              YValue = 129.000000000000000000
+              YValueSecond = 118.000000000000000000
+              YValueVariable = 129.000000000000000000
+              YValueLow = 66.000000000000000000
+              YValueClose = 101.000000000000000000
+              YValueHigh = 129.000000000000000000
+              YValueOpen = 124.000000000000000000
+              YValueMedian = 130.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 9.000000000000000000
+              YValue = 32.000000000000000000
+              YValueSecond = 16.000000000000000000
+              YValueVariable = 32.000000000000000000
+              YValueLow = 9.000000000000000000
+              YValueClose = 13.000000000000000000
+              YValueHigh = 32.000000000000000000
+              YValueOpen = 30.000000000000000000
+              YValueMedian = 35.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 10.000000000000000000
+              YValue = 96.000000000000000000
+              YValueSecond = 85.000000000000000000
+              YValueVariable = 96.000000000000000000
+              YValueLow = 32.000000000000000000
+              YValueClose = 54.000000000000000000
+              YValueHigh = 96.000000000000000000
+              YValueOpen = 70.000000000000000000
+              YValueMedian = 96.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 11.000000000000000000
+              YValue = 49.000000000000000000
+              YValueSecond = 33.000000000000000000
+              YValueVariable = 49.000000000000000000
+              YValueLow = 17.000000000000000000
+              YValueClose = 48.000000000000000000
+              YValueHigh = 49.000000000000000000
+              YValueOpen = 20.000000000000000000
+              YValueMedian = 50.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 12.000000000000000000
+              YValue = 46.000000000000000000
+              YValueSecond = 28.000000000000000000
+              YValueVariable = 46.000000000000000000
+              YValueLow = 17.000000000000000000
+              YValueClose = 32.000000000000000000
+              YValueHigh = 46.000000000000000000
+              YValueOpen = 29.000000000000000000
+              YValueMedian = 50.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 13.000000000000000000
+              YValue = 87.000000000000000000
+              YValueSecond = 70.000000000000000000
+              YValueVariable = 87.000000000000000000
+              YValueLow = 44.000000000000000000
+              YValueClose = 76.000000000000000000
+              YValueHigh = 87.000000000000000000
+              YValueOpen = 70.000000000000000000
+              YValueMedian = 91.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 14.000000000000000000
+              YValue = 85.000000000000000000
+              YValueSecond = 75.000000000000000000
+              YValueVariable = 85.000000000000000000
+              YValueLow = 38.000000000000000000
+              YValueClose = 68.000000000000000000
+              YValueHigh = 85.000000000000000000
+              YValueOpen = 66.000000000000000000
+              YValueMedian = 88.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 15.000000000000000000
+              YValue = 87.000000000000000000
+              YValueSecond = 75.000000000000000000
+              YValueVariable = 87.000000000000000000
+              YValueLow = 43.000000000000000000
+              YValueClose = 71.000000000000000000
+              YValueHigh = 87.000000000000000000
+              YValueOpen = 68.000000000000000000
+              YValueMedian = 85.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 16.000000000000000000
+              YValue = 125.000000000000000000
+              YValueSecond = 115.000000000000000000
+              YValueVariable = 125.000000000000000000
+              YValueLow = 51.000000000000000000
+              YValueClose = 90.000000000000000000
+              YValueHigh = 125.000000000000000000
+              YValueOpen = 101.000000000000000000
+              YValueMedian = 129.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 17.000000000000000000
+              YValue = 124.000000000000000000
+              YValueSecond = 109.000000000000000000
+              YValueVariable = 124.000000000000000000
+              YValueLow = 47.000000000000000000
+              YValueClose = 88.000000000000000000
+              YValueHigh = 124.000000000000000000
+              YValueOpen = 100.000000000000000000
+              YValueMedian = 123.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 18.000000000000000000
+              YValue = 123.000000000000000000
+              YValueSecond = 107.000000000000000000
+              YValueVariable = 123.000000000000000000
+              YValueLow = 65.000000000000000000
+              YValueClose = 95.000000000000000000
+              YValueHigh = 123.000000000000000000
+              YValueOpen = 90.000000000000000000
+              YValueMedian = 121.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 19.000000000000000000
+              YValue = 88.000000000000000000
+              YValueSecond = 73.000000000000000000
+              YValueVariable = 88.000000000000000000
+              YValueLow = 27.000000000000000000
+              YValueClose = 64.000000000000000000
+              YValueHigh = 88.000000000000000000
+              YValueOpen = 45.000000000000000000
+              YValueMedian = 90.000000000000000000
+            end
+            item
+              Annotations = <>
+              XValue = 20.000000000000000000
+              YValue = 115.000000000000000000
+              YValueSecond = 103.000000000000000000
+              YValueVariable = 115.000000000000000000
+              YValueLow = 62.000000000000000000
+              YValueClose = 83.000000000000000000
+              YValueHigh = 115.000000000000000000
+              YValueOpen = 103.000000000000000000
+              YValueMedian = 116.000000000000000000
+            end>
+          Legend.Fill.Color = claGhostwhite
+          Legend.Font.Name = 'Segoe UI'
+          Legend.Left = -10.000000000000000000
+          Legend.Stroke.Color = claGray
+          Stroke.Color = xFF2C607A
+          Stroke.Width = 2.000000000000000000
+          XGrid.Visible = True
+          XValues.MajorUnit = 1.000000000000000000
+          XValues.MajorUnitFont.Name = 'Segoe UI'
+          XValues.MajorUnitFormat = '%.0f'
+          XValues.MajorUnitSpacing = 5.000000000000000000
+          XValues.MajorUnitTickMarkSize = 10.000000000000000000
+          XValues.MajorUnitTickMarkColor = claSilver
+          XValues.MinorUnitFont.Name = 'Segoe UI'
+          XValues.MinorUnitFormat = '%.0f'
+          XValues.MinorUnitSpacing = 5.000000000000000000
+          XValues.MinorUnitTickMarkSize = 7.000000000000000000
+          XValues.MinorUnitTickMarkColor = claSilver
+          XValues.Title.Font.Name = 'Segoe UI'
+          XValues.Title.TextMargins.Left = 0
+          XValues.Title.TextMargins.Top = 0
+          XValues.Title.TextMargins.Right = 0
+          XValues.Title.TextMargins.Bottom = 0
+          XValues.Title.Text = 'X-Axis Series 1'
+          YGrid.Visible = True
+          YValues.MajorUnit = 1.000000000000000000
+          YValues.MajorUnitFont.Name = 'Segoe UI'
+          YValues.MajorUnitFormat = '%.2f'
+          YValues.MajorUnitSpacing = 5.000000000000000000
+          YValues.MajorUnitTickMarkSize = 10.000000000000000000
+          YValues.MajorUnitTickMarkColor = claSilver
+          YValues.MinorUnitFont.Name = 'Segoe UI'
+          YValues.MinorUnitFormat = '%.2f'
+          YValues.MinorUnitSpacing = 5.000000000000000000
+          YValues.MinorUnitTickMarkSize = 7.000000000000000000
+          YValues.MinorUnitTickMarkColor = claSilver
+          YValues.Title.Font.Name = 'Segoe UI'
+          YValues.Title.TextMargins.Left = 0
+          YValues.Title.TextMargins.Top = 0
+          YValues.Title.TextMargins.Right = 0
+          YValues.Title.TextMargins.Bottom = 0
+          YValues.Title.Text = 'Y-Axis Series 1'
+          Crosshair.XTextStroke.Color = xFF57C0F5
+          Crosshair.XTextFill.Color = xFF57C0F5
+          Crosshair.XTextFont.Color = claWhite
+          Crosshair.XTextFont.Name = 'Segoe UI'
+          Crosshair.YTextStroke.Color = xFF57C0F5
+          Crosshair.YTextFill.Color = xFF57C0F5
+          Crosshair.YTextFont.Color = claWhite
+          Crosshair.YTextFont.Name = 'Segoe UI'
+          Crosshair.HorizontalLineStroke.Color = xFF57C0F5
+          Crosshair.VerticalLineStroke.Color = xFF57C0F5
+        end>
+      Title.Fill.Kind = gfkNone
+      Title.Fill.Color = claGhostwhite
+      Title.Stroke.Color = claGray
+      Title.Font.Name = 'Segoe UI'
+      Title.Height = 35.000000000000000000
+      Title.TextMargins.Left = 3
+      Title.TextMargins.Top = 3
+      Title.TextMargins.Right = 3
+      Title.TextMargins.Bottom = 3
+      Title.Text = 'TMS FNC Chart'
+      XAxis.Fill.Kind = gfkNone
+      XAxis.Fill.Color = claGhostwhite
+      XAxis.Stroke.Color = claGray
+      XAxis.Height = 35.000000000000000000
+      YAxis.Fill.Kind = gfkNone
+      YAxis.Fill.Color = claGhostwhite
+      YAxis.Stroke.Color = claGray
+      YAxis.Width = 35.000000000000000000
+      DefaultLoadOptions.XValuesFormatString = '%.0f'
+      DefaultLoadOptions.YValuesFormatString = '%.2f'
+      DefaultLoadOptions.MaxYOffsetPercentage = 5.000000000000000000
+      Align = Client
+      Size.Width = 796.000000000000000000
+      Size.Height = 531.000000000000000000
+      Size.PlatformDefault = False
+      ClipChildren = True
+      DisableFocusEffect = False
+      TabOrder = 1
+    end
+  end
+end

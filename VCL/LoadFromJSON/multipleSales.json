@@ -1,0 +1,55 @@
+{ 
+  "year": "2022",
+  "financialreport": [
+    {
+      "company": "Test",
+      "companyname": "Test Corp",
+      "companystock": "TST",
+      "financials":
+      [
+        {
+        "date": "January",
+        "revenue": 100,
+        "expenses": 30,
+        "profits": 70
+       },
+       {
+        "date": "February",
+        "revenue": 120,
+        "expenses": 30,
+        "profits": 90
+       },
+       {
+        "date": "March",
+        "revenue": 150,
+        "expenses": 45,
+        "profits": 105
+       },
+       {
+        "date": "April",
+        "revenue": 180,
+        "expenses": 20,
+        "profits": 160
+       },
+       {
+        "date": "May",
+        "revenue": 210,
+        "expenses": 10,
+        "profits": 200
+       },
+       {
+        "date": "June",
+        "revenue": 240,
+        "expenses": 40,
+        "profits": 200
+       },
+       {
+        "date": "July",
+        "revenue": 270,
+        "expenses": 45,
+        "profits": 225
+       }
+      ]
+    }
+  ]
+}

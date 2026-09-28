@@ -1,0 +1,11 @@
+{
+  "chart": {
+    "type": "pie",
+    "data": [
+      {"x": "Apples", "value": "128.14", "fill": "green"},
+      {"x": "Oranges", "value": "66.72", "fill": "orange"},
+      {"x": "Lemons", "value": "84.39", "fill": "yellow"}
+    ],
+    "container": "container"
+  }
+}
